@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate, UIToolbarDelegate {
 
 
     @IBOutlet weak var imagePickerView: UIImageView!
@@ -18,6 +18,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var shareButton: UIBarButtonItem!
     @IBOutlet weak var cancelButton: UIBarButtonItem!
     @IBOutlet weak var memeView: UIView!
+    @IBOutlet weak var topToolBar: UIToolbar!
+    @IBOutlet weak var bottomToolBar: UIToolbar!
     
     override func viewWillAppear(_ animated: Bool) {
         
@@ -38,6 +40,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         bottomTextField.textAlignment = .center
         topTextField.delegate = self
         bottomTextField.delegate = self
+        topToolBar.delegate = self
+        bottomToolBar.delegate = self
     }
 
  
@@ -148,5 +152,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         let activityController = UIActivityViewController(activityItems: [generateMemedImage()], applicationActivities: nil)
         present(activityController, animated: true)
     
+    }
+  
+    @IBAction func onTapCancel(_sender: Any) {
+        imagePickerView.image = nil
+        topTextField.text = "TOP"
+        bottomTextField.text = "BOTTOM"
     }
 }

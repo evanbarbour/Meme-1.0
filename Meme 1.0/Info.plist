@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This allows you to send your meme to your friends!</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>This allows you to save the meme if you love it!</string>
 	<key>NSPhotoLibraryUsageDescription</key>
