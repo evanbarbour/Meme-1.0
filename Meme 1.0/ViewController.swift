@@ -21,6 +21,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var topToolBar: UIToolbar!
     @IBOutlet weak var bottomToolBar: UIToolbar!
     
+    
     override func viewWillAppear(_ animated: Bool) {
         
         super.viewWillAppear(animated)
@@ -40,8 +41,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         bottomTextField.textAlignment = .center
         topTextField.delegate = self
         bottomTextField.delegate = self
-        topToolBar.delegate = self
-        bottomToolBar.delegate = self
+        topTextField.text = "TOP"
+        bottomTextField.text = "BOTTOM"
     }
 
  
