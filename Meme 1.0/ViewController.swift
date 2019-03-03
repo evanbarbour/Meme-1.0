@@ -113,7 +113,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
     }
     
-    // If you want to tap outside the text field rather than hit "return" (from StackOverflow: https://stackoverflow.com/questions/32281651/how-to-dismiss-keyboard-when-touching-anywhere-outside-uitextfield-in-swift)
+// If you want to tap outside the text field rather than hit "return" (from StackOverflow: https://stackoverflow.com/questions/32281651/how-to-dismiss-keyboard-when-touching-anywhere-outside-uitextfield-in-swift)
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)

@@ -82,6 +82,7 @@
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="q2B-Vw-qWZ"/>
                                     <barButtonItem systemItem="camera" id="OML-g6-EEp">
+                                        <inset key="landscapeImageInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
                                             <action selector="pickAnImageFromCamera:" destination="BYZ-38-t0r" id="jPg-aO-5Od"/>
                                         </connections>
@@ -101,8 +102,10 @@
                             <constraint firstItem="Noo-uv-Da6" firstAttribute="centerX" secondItem="Ahg-f4-ylt" secondAttribute="centerX" id="1Xf-CF-27W"/>
                             <constraint firstItem="yas-zp-euo" firstAttribute="top" secondItem="Ahg-f4-ylt" secondAttribute="bottom" id="6z3-rW-3fo"/>
                             <constraint firstAttribute="trailing" secondItem="Noo-uv-Da6" secondAttribute="trailing" id="7ZT-Ym-0wM"/>
+                            <constraint firstItem="Noo-uv-Da6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="85D-8M-OWl"/>
                             <constraint firstItem="Noo-uv-Da6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MUm-MK-bVc"/>
                             <constraint firstItem="yas-zp-euo" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="TZd-rA-W48"/>
+                            <constraint firstItem="yas-zp-euo" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="frh-2P-c8Q"/>
                             <constraint firstItem="Noo-uv-Da6" firstAttribute="trailing" secondItem="yas-zp-euo" secondAttribute="trailing" id="gdC-aD-vFg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yas-zp-euo" secondAttribute="bottom" id="kp3-EU-kIg"/>
                             <constraint firstItem="Ahg-f4-ylt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mzV-0P-jIF"/>
