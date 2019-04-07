@@ -29,7 +29,7 @@ class SentMemesCollectionViewController: UICollectionViewController {
         collectionView?.reloadData()
     }
     
-    // Set spacing in the view
+    // Set spacing in the view, with help from https://github.com/chandakvishal/MemeMe-2.0
     override func viewDidLoad() {
         super.viewDidLoad()
         
