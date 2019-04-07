@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				B460BF872253EE1A00213EDC /* Default-568h@2x.png */,
-				B439410D22219E84000CDC31 /* MemeMe 2.0 */,
+				B439410D22219E84000CDC31 /* Meme 1.0 */,
 				B439410C22219E84000CDC31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,17 +66,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B439410D22219E84000CDC31 /* MemeMe 2.0 */ = {
+		B439410D22219E84000CDC31 /* Meme 1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				B439411A22219E87000CDC31 /* Info.plist */,
 				B43E616C22467815009D6D91 /* Delegates */,
 				B43E616B224677FA009D6D91 /* ViewControllers */,
 				B4B3FF8C222C1E3B00C1EAFC /* Launch Screen.storyboard */,
 				B439411222219E84000CDC31 /* Main.storyboard */,
 				B439411522219E87000CDC31 /* Assets.xcassets */,
-				B439411A22219E87000CDC31 /* Info.plist */,
 			);
-			path = "MemeMe 2.0";
+			path = "Meme 1.0";
 			sourceTree = "<group>";
 		};
 		B43E616B224677FA009D6D91 /* ViewControllers */ = {

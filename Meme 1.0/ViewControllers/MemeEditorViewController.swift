@@ -152,8 +152,8 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
     @objc func keyboardWillBeHidden(_ notification: Notification) {
         if bottomTextField.isEditing {
             view.frame.origin.y = 0
+        }
     }
-}
     
     // Notification center for keyboard behavior
     func registerForKeyboardNotifications(){
